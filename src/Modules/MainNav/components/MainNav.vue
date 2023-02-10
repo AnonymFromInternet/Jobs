@@ -1,13 +1,17 @@
 <template>
   <header class="w-full text-sm">
-    Main Nav
+    <div class="fixed top-0 left-0 w-full h-16 bg-white">
+      <div class="flex flex-nowrap h-full border-b border-solid border-brand-main-background-color-1 px-8 mx-auto">
+        <a href="/" class="flex h-full items-center text-xl">Career Agency</a>
+      </div>
+    </div>
   </header>
 </template>
 
 <script>
 // Options API
 export default {
-
+ name: "MainNav",
 }
 </script>
 

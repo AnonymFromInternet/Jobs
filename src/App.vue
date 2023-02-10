@@ -1,3 +1,14 @@
 <template>
- <h1 class="mt-8 text-6xl text-center">Test</h1>
+  <MainNav/>
 </template>
+
+<script>
+  import MainNav from "@/Modules/MainNav/components/MainNav.vue"
+  // Возможно это Options API
+  export default {
+    name: "App",
+    components: {
+      MainNav,
+    },
+  }
+</script>
