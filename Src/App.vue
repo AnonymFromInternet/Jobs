@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import MainNav from "@/Modules/MainNav/components/MainNav.vue"
+  import MainNav from "@/Modules/MainNav/Components/MainNav.vue"
   // Возможно это Options API
   export default {
     name: "App",
